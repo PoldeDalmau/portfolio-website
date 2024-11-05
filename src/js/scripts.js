@@ -1,19 +1,7 @@
 import * as THREE from 'three';
-import * as YUKA from 'yuka';
-import gsap from 'gsap';
 import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader';
 import {DRACOLoader} from 'three/examples/jsm/loaders/DRACOLoader';
-import * as SkeletonUtils from 'three/examples/jsm/utils/SkeletonUtils';
-import {
-    YELLOWVEHICLESPATHS,
-    REDVEHICLESPATHS,
-    BLUEVEHICLESPATHS,
-    ANSWERSTEXT,
-    WHEELS,
-    BLINKINGLIGHTS,
-    LISTENER,
-    AUDIOS
-} from './constants'
+
 
 const entityManager = new YUKA.EntityManager();
 const progressBar = document.getElementById('progress-bar');

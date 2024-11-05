@@ -6,37 +6,444 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pol de Dalmau Huguet</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mediaqueries.css">
 </head>
 <body>
-    <section class="progress-bar-container">
-        <label for="progress-bar">Loading...</label>
-        <progress id="progress-bar" value="0" max="100"></progress>
-    </section>
-    <p class="score">Score: <span>0</span> / 7</p>
-    <section class="header">
-        <h1>DRIVING TEST QUIZ</h1>
-        <button>START</button>
-    </section>
-    <section class="questions">
-        <p>Q1: in which order may the vehicles proceed?</p>
-        <ul>
-            <li id="option1"><span id="a1-text">Blue, yellow, red</span> <span id="a1-symbol"></span></li>
-            <li id="option2"><span id="a2-text">Red, yellow, blue</span> <span id="a2-symbol"></span></li>
-            <li id="option3"><span id="a3-text">Red, blue, yellow</span> <span id="a3-symbol"></span></li>
-        </ul>
-    </section>
-    <section class="explanation">
-        <button>Next Question</button>
-        <div class="text-wrapper">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Cras at leo vel lorem iaculis ultrices at et justo.
-                Phasellus semper, ligula in aliquam placerat, dui velit suscipit lacus,
-                eu tincidunt magna urna vitae ligula. Pellentesque vitae risus faucibus,
-                accumsan tortor in, cursus nisi. Quisque fermentum ligula non viverra commodo.
-            </p>
+    <nav id="desktop-nav">
+        <div class="logo">Pol de Dalmau</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </div>
-    </section>
-    <script src="./js/scripts.js" type="module"></script>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Pol de Dalmau</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+      <section id="profile">
+        <div class="section__pic-container">
+          <img src="../static/symbols/profile_pic.jpg" class="profile-pic" alt="John Doe profile picture" />
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Pol de Dalmau</h1>
+          <p class="section__text__p2">Software Engineer | Physicist</p>
+          <div class="btn-container">
+            <!-- <button
+              class="btn btn-color-2"
+              onclick="window.open('../static/symbols/resume-example.pdf')"
+            >
+              Download CV
+            </button> -->
+            <button class="btn btn-color-2" onclick="location.href='./#contact'">
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="../static/symbols/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://www.linkedin.com/in/pol-de-dalmau-huguet/'"
+            />
+            <img
+              src="../static/symbols/github.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/PoldeDalmau'"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="../static/symbols/about-pic.png"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="../static/symbols/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Experience</h3>
+                <p class="p_alt">Math analyst <br />Software Engineer</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="../static/symbols/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3>
+                <p class="p_alt">B.Sc. Physics<br />M.Sc. Applied Physics</p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p class="p_alt">
+                Passionate about physics and software engineering, and especially combinations of the two. 
+                As a hobby, I love to embark in my own coding projects. 
+                <!-- Having lived in five different countries
+                and successfully worked in both international and fully Dutch environments, I am fluent in six 
+                languages and excel in diverse teams, where I facilitate effective communication and collaboration.  -->
+                In my free time, you will probably find me climbing or playing the guitar.
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="../static/symbols/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+      <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Languages</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="../static/symbols/cplusplus.svg"
+                    alt="Experience icon"
+                    class="icon_type_2"
+                  />
+                  <div>
+                    <h3>C++</h3>
+                    <p class="p_alt">Expert</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="../static/symbols/python.svg"
+                    alt="Experience icon"
+                    class="icon_type_2"
+                  />
+                  <div>
+                    <h3>Python</h3>
+                    <p class="p_alt">Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="../static/symbols/HTML5_logo.png"
+                    alt="Experience icon"
+                    class="icon_type_3"
+                  />
+                  <div>
+                    <h3>HTML</h3>
+                    <p class="p_alt">Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="../static/symbols/CSS3_logo.png"
+                    alt="Experience icon"
+                    class="icon_type_3"
+                  />
+                  <div>
+                    <h3>CSS</h3>
+                    <p class="p_alt">Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                  src="../static/symbols/js-logo.png"
+                  alt="Experience icon"
+                  class="icon_type_3"
+                  />
+                  <div>
+                    <h3>JavaScript</h3>
+                    <p class="p_alt">Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="../static/symbols/excel-logo2.png"
+                    alt="Experience icon"
+                    class="icon_type_3"
+                  />
+                  <div>
+                    <h3>Excel</h3>
+                    <p class="p_alt">Intermediate</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Tools</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="../static/symbols/visualstudio.svg"
+                    alt="Experience icon"
+                    class="icon_type_2"
+                  />
+                  <div>
+                    <h3>Visual Studio</h3>
+                    <p class="p_alt">Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="../static/symbols/vs-code-logo.png"
+                    alt="Experience icon"
+                    class="icon_type_3"
+                  />
+                  <div>
+                    <h3>VS Code</h3>
+                    <p class="p_alt">Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="../static/symbols/git.svg"
+                    alt="Experience icon"
+                    class="icon_type_2"
+                  />
+                  <div>
+                    <h3>Git</h3>
+                    <p class="p_alt">Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="../static/symbols/LaTeX_logo.png"
+                    alt="Experience icon"
+                    class="icon_type_3"
+                  />
+                  <div>
+                    <h3>LaTeX</h3>
+                    <p class="p_alt">Advanced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="../static/symbols/threejs.png"
+                    alt="Experience icon"
+                    class="icon_type_2"
+                  />
+                  <div>
+                    <h3>Threejs</h3>
+                    <p class="p_alt">Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="../static/symbols/bash-logo.png"
+                    alt="Experience icon"
+                    class="icon_type_2"
+                  />
+                  <div>
+                    <h3>Bash</h3>
+                    <p class="p_alt">Basic</p>
+                  </div>
+                </article>
+     
+  
+                <!-- <article>
+                  <img
+                    src="../static/symbols/LOGO-BLENDER.png"
+                    alt="Experience icon"
+                    class="icon_type_3"
+                  />
+                  <div>
+                    <h3>Blender</h3>
+                    <p>Basic</p>
+                  </div>
+                </article> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="../static/symbols/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+      </section>
+      <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="../static/symbols/phys.gif"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Physics Engine</h2>
+              <div class="btn-container">
+                <!-- class="btn btn-color-2 project-btn" -->
+                <button
+                  class="btn btn-color-2"
+                  onclick="location.href='https://github.com/PoldeDalmau/2DPhysicsGame'"
+                >
+                  Github
+                </button>
+                <!-- <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button> -->
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="../static/symbols/project-2.gif"
+                  alt="Project 2"
+                  class="project-img"
+                />
+                <!-- <div class="project-img"></div> -->
+              </div>
+              <h2 class="experience-sub-title project-title">3D Game in Threejs</h2>
+              <!-- <h2 class="experience-sub-title project-title">3D Game - Catalan edition</h2> -->
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2"
+                  onclick="location.href='https://github.com/PoldeDalmau/Correfoc'"
+                >
+                  Github
+                </button>
+                <!-- <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button> -->
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="../static/symbols/website screenshot.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+                <!-- <div class="project-img"></div> -->
+              </div>
+              <h2 class="experience-sub-title project-title">Portfolio website</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2"
+                  onclick="location.href='https://github.com/PoldeDalmau/Personal-website'"
+                >
+                  Github
+                </button>
+                <!-- <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button> -->
+              </div>
+              
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <div id="canvas-wrapper">
+                  <canvas id="main-canvas"></canvas>
+                </div>
+                <!-- <div id="canvas" style="width: 100px; height: 100px;">sdfsf</div> -->
+                <!-- <div class="project-img"></div> -->
+              </div>
+              <h2 class="experience-sub-title project-title">My avatar in Blender</h2>
+              <!-- <h2 class="experience-sub-title project-title">3D Game - Catalan edition</h2> -->
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2"
+                  onclick="location.href='https://github.com/PoldeDalmau/Correfoc'"
+                >
+                  Github
+                </button>
+                <!-- <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="../static/symbols/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="../static/symbols/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a class="p_alt" href="mailto:pol@dedalmau.com">pol@dedalmau.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="../static/symbols/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a  class="p_alt" href="https://www.linkedin.com/in/pol-de-dalmau-huguet/">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <!-- <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p> -->
+      </footer>
+    <!-- <script src="./js/scripts.js" type="module"></script> -->
+    <script src="./js/script.js"></script>
+    <script src="./js/3D_thing.js" type="module"></script>
 </body>
 </html>

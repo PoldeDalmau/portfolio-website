@@ -1,10 +1,18 @@
-# drivingquiz
+# Portfolio website
 
-"Create A 3D Driving Test Quiz Using Three.js, Yuka, and GSAP" YouTube tutorial project files https://youtu.be/WIZ5kbeVMkM
+This is the first version of my portfolio website.
 
-1. Clone the repository;
-2. Open the folder in Visual Studio Code;
-3. Open the terminal and type this command: npm install
-4. Run the app on the server by typing this command: npx parcel ./src/index.html
-5. Ctrl + click on the server link "http://localhost:1234" to open the app in your browser;
-6. Have fun!
+For the live website:
+
+[https://poldedalmau.github.io/Personal-website/](https://poldedalmau.github.io/Personal-website/)
+
+# Acknowledgements
+
+This project is inspired from [Ade-Mir](https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2). Go check it out or see the [youtube tutorial](https://www.youtube.com/watch?v=ldwlOzRvYOU)!
+
+Wael Yasmina provides great [tutorials]{https://www.youtube.com/watch?v=gyAdWWZRNBY} and shares his [github repos](https://github.com/WaelYasmina/drivingquiz) on how to publish a website.
+
+# Guide
+
+Run ```npx parcel build ./src/index.html```
+This will generate a ```dist``` folder. Open the index.html file inside the folder and add a ./ in front of all the paths. The contents of the ```dist``` folder are now the website.
