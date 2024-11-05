@@ -1,4 +1,4 @@
-7750
+7748
 110C:\Projecten\test\drivingquiz\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages133752818031935650 0
 81C:\Projecten\test\drivingquiz\node_modules\type-fest\source\conditional-keys.d.ts133752818010720191 0
 74C:\Projecten\test\drivingquiz\node_modules\gh-pages\node_modules\commander133752826962573494 1
@@ -30,13 +30,13 @@
 89C:\Projecten\test\drivingquiz\node_modules\caniuse-lite\data\features\wasm-bulk-memory.js133752818026853715 0
 60C:\Projecten\test\drivingquiz\node_modules\lmdb\dependencies133752818018212662 1
 67C:\Projecten\test\drivingquiz\node_modules\graceful-fs\polyfills.js133752826961871790 0
-40C:\Projecten\test\drivingquiz\.gitignore133752889256311123 0
+40C:\Projecten\test\drivingquiz\.gitignore133752965102615584 0
 68C:\Projecten\test\drivingquiz\node_modules\dotenv\lib\env-options.js133752818010046695 0
 78C:\Projecten\test\drivingquiz\node_modules\css-tree\cjs\syntax\node\Number.cjs133752818017381270 0
 60C:\Projecten\test\drivingquiz\node_modules\yuka\package.json133752818013576866 0
 95C:\Projecten\test\drivingquiz\node_modules\three\examples\jsm\nodes\parsers\WGSLNodeFunction.js133752818029339211 0
 70C:\Projecten\test\drivingquiz\node_modules\three\src\loaders\Loader.js133752818024192832 0
-34C:\Projecten\test\drivingquiz\dist133752914201438925 1
+34C:\Projecten\test\drivingquiz\dist133752972338839644 1
 63C:\Projecten\test\drivingquiz\dist\assets\symbols\checkmark.png133752001234404131 0
 39C:\Projecten\test\drivingquiz\.parcelrc133752817556545718 0
 93C:\Projecten\test\drivingquiz\node_modules\caniuse-lite\data\features\font-variant-numeric.js133752818022574970 0
@@ -57,7 +57,7 @@
 83C:\Projecten\test\drivingquiz\node_modules\three\examples\jsm\shaders\FilmShader.js133752818022655310 0
 87C:\Projecten\test\drivingquiz\node_modules\three\src\renderers\webgl\WebGLBackground.js133752818028576629 0
 65C:\Projecten\test\drivingquiz\node_modules\timsort\src\timsort.js133752818010424461 0
-39C:\Projecten\test\drivingquiz\README.md133752896998833474 0
+39C:\Projecten\test\drivingquiz\README.md133752964860674433 0
 78C:\Projecten\test\drivingquiz\node_modules\three\src\core\GLBufferAttribute.js133752818023139741 0
 95C:\Projecten\test\drivingquiz\node_modules\lmdb\node_modules\node-addon-api\tools\check-napi.js133752818011212243 0
 67C:\Projecten\test\drivingquiz\node_modules\css-select\lib\sort.d.ts133752818017146046 0
@@ -441,7 +441,7 @@
 75C:\Projecten\test\drivingquiz\node_modules\make-dir\node_modules\semver\bin133752826961689189 1
 92C:\Projecten\test\drivingquiz\node_modules\three\examples\jsm\helpers\VertexNormalsHelper.js133752818028361420 0
 89C:\Projecten\test\drivingquiz\node_modules\three\examples\jsm\postprocessing\BokehPass.js133752818018182660 0
-44C:\Projecten\test\drivingquiz\src\index.html133752912232686777 0
+44C:\Projecten\test\drivingquiz\src\index.html133752971916633095 0
 61C:\Projecten\test\drivingquiz\node_modules\lmdb\src\lmdb-js.h133752818017812276 0
 51C:\Projecten\test\drivingquiz\node_modules\msgpackr133752818015932268 1
 116C:\Projecten\test\drivingquiz\node_modules\three\src\renderers\shaders\ShaderChunk\specularmap_pars_fragment.glsl.js133752818027394085 0
@@ -2729,7 +2729,7 @@
 93C:\Projecten\test\drivingquiz\node_modules\three\examples\jsm\nodes\accessors\InstanceNode.js133752818023624325 0
 102C:\Projecten\test\drivingquiz\node_modules\three\examples\jsm\nodes\accessors\MaterialReferenceNode.js133752818024572920 0
 84C:\Projecten\test\drivingquiz\node_modules\css-tree\lib\syntax\node\ClassSelector.js133752818018918020 0
-66C:\Projecten\test\drivingquiz\dist\website screenshot.0fb74a8d.png133752914196902342 0
+66C:\Projecten\test\drivingquiz\dist\website screenshot.0fb74a8d.png133752972330308869 0
 90C:\Projecten\test\drivingquiz\node_modules\three\examples\jsm\nodes\accessors\ModelNode.js133752818025192925 0
 98C:\Projecten\test\drivingquiz\node_modules\lmdb\node_modules\node-addon-api\tools\eslint-format.js133752818011995505 0
 71C:\Projecten\test\drivingquiz\node_modules\css-tree\cjs\lexer\index.cjs133752818016172578 0
@@ -4069,10 +4069,10 @@
 75C:\Projecten\test\drivingquiz\node_modules\@parcel\transformer-posthtml\src133752818009340688 1
 74C:\Projecten\test\drivingquiz\node_modules\htmlnano\lib\modules\custom.cjs133752818009976707 0
 94C:\Projecten\test\drivingquiz\node_modules\htmlnano\lib\modules\deduplicateAttributeValues.cjs133752818010240325 0
-60C:\Projecten\test\drivingquiz\dist\vs-code-logo.9d377de2.png133752914183157997 0
+60C:\Projecten\test\drivingquiz\dist\vs-code-logo.9d377de2.png133752972328518248 0
 75C:\Projecten\test\drivingquiz\node_modules\htmlnano\lib\modules\example.mjs133752818016980863 0
 64C:\Projecten\test\drivingquiz\node_modules\chalk\source\index.js133752818007638801 0
-54C:\Projecten\test\drivingquiz\dist\python.d6bb1059.svg133752914197535051 0
+54C:\Projecten\test\drivingquiz\dist\python.d6bb1059.svg133752972328498902 0
 74C:\Projecten\test\drivingquiz\node_modules\caniuse-lite\data\regions\SK.js133752818025834009 0
 80C:\Projecten\test\drivingquiz\node_modules\htmlnano\lib\modules\mergeScripts.cjs133752818011278568 0
 67C:\Projecten\test\drivingquiz\node_modules\find-cache-dir\readme.md133752826961767315 0
@@ -4673,7 +4673,7 @@
 87C:\Projecten\test\drivingquiz\node_modules\dom-serializer\lib\esm\foreignNames.d.ts.map133752818010414400 0
 97C:\Projecten\test\drivingquiz\node_modules\csso\node_modules\css-tree\lib\syntax\node\Brackets.js133752818018652925 0
 80C:\Projecten\test\drivingquiz\node_modules\dom-serializer\lib\esm\index.d.ts.map133752818010744073 0
-58C:\Projecten\test\drivingquiz\dist\LaTeX_logo.d1a8474d.png133752914189731775 0
+58C:\Projecten\test\drivingquiz\dist\LaTeX_logo.d1a8474d.png133752972328518248 0
 102C:\Projecten\test\drivingquiz\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\clean\utils.js133752818015266306 0
 74C:\Projecten\test\drivingquiz\node_modules\dom-serializer\lib\esm\index.js133752818009176039 0
 78C:\Projecten\test\drivingquiz\node_modules\dom-serializer\lib\esm\package.json133752818009903971 0
@@ -5563,7 +5563,6 @@
 74C:\Projecten\test\drivingquiz\node_modules\caniuse-lite\data\regions\GF.js133752818022820525 0
 74C:\Projecten\test\drivingquiz\node_modules\caniuse-lite\data\regions\GG.js133752818022840660 0
 74C:\Projecten\test\drivingquiz\node_modules\caniuse-lite\data\regions\GI.js133752818022880521 0
-52C:\Projecten\test\drivingquiz\dist\index.6f22736e.js133752914199324171 0
 74C:\Projecten\test\drivingquiz\node_modules\caniuse-lite\data\regions\GL.js133752818022900515 0
 74C:\Projecten\test\drivingquiz\node_modules\caniuse-lite\data\regions\GN.js133752818022921127 0
 74C:\Projecten\test\drivingquiz\node_modules\caniuse-lite\data\regions\GQ.js133752818022966433 0
@@ -5856,7 +5855,7 @@
 85C:\Projecten\test\drivingquiz\node_modules\caniuse-lite\data\features\do-not-track.js133752818021291607 0
 72C:\Projecten\test\drivingquiz\node_modules\@parcel\optimizer-css\LICENSE133752818007073771 0
 95C:\Projecten\test\drivingquiz\node_modules\caniuse-lite\data\features\document-currentscript.js133752818021361499 0
-54C:\Projecten\test\drivingquiz\dist\github.779fc743.png133752914183157997 0
+54C:\Projecten\test\drivingquiz\dist\github.779fc743.png133752972328498902 0
 96C:\Projecten\test\drivingquiz\node_modules\caniuse-lite\data\features\document-evaluate-xpath.js133752818021371458 0
 98C:\Projecten\test\drivingquiz\node_modules\caniuse-lite\data\features\document-scrollingelement.js133752818021411680 0
 94C:\Projecten\test\drivingquiz\node_modules\caniuse-lite\data\features\dom-manip-convenience.js133752818021456623 0
@@ -5897,7 +5896,7 @@
 56C:\Projecten\test\drivingquiz\node_modules\@lezer\common133752818010390599 1
 89C:\Projecten\test\drivingquiz\node_modules\caniuse-lite\data\features\getcomputedstyle.js133752818022780448 0
 95C:\Projecten\test\drivingquiz\node_modules\caniuse-lite\data\features\getelementsbyclassname.js133752818022800532 0
-57C:\Projecten\test\drivingquiz\dist\index.645dd7ba.css.map133752914199490857 0
+57C:\Projecten\test\drivingquiz\dist\index.645dd7ba.css.map133752972338804163 0
 88C:\Projecten\test\drivingquiz\node_modules\caniuse-lite\data\features\getrandomvalues.js133752818022810638 0
 74C:\Projecten\test\drivingquiz\node_modules\@parcel\core\lib\projectPath.js133752818018344721 0
 64C:\Projecten\test\drivingquiz\node_modules\@swc\helpers\_\_using133752818018958647 1
@@ -5962,7 +5961,7 @@
 83C:\Projecten\test\drivingquiz\node_modules\caniuse-lite\data\features\matchmedia.js133752818024152819 0
 77C:\Projecten\test\drivingquiz\node_modules\@parcel\packager-js\lib\helpers.js133752818011023768 0
 110C:\Projecten\test\drivingquiz\node_modules\caniuse-lite\data\features\mdn-css-unicode-bidi-isolate-override.js133752818024192832 0
-51C:\Projecten\test\drivingquiz\dist\git.87d604b4.svg133752914188476337 0
+51C:\Projecten\test\drivingquiz\dist\git.87d604b4.svg133752972328508834 0
 92C:\Projecten\test\drivingquiz\node_modules\@parcel\transformer-image\src\ImageTransformer.js133752818008416291 0
 103C:\Projecten\test\drivingquiz\node_modules\caniuse-lite\data\features\mdn-css-unicode-bidi-plaintext.js133752818024202831 0
 98C:\Projecten\test\drivingquiz\node_modules\caniuse-lite\data\features\mdn-text-decoration-color.js133752818024212820 0
@@ -6194,7 +6193,6 @@
 108C:\Projecten\test\drivingquiz\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\create.js133752818013446802 0
 61C:\Projecten\test\drivingquiz\node_modules\async\eachLimit.js133752826962978487 0
 63C:\Projecten\test\drivingquiz\node_modules\async\eachOfLimit.js133752826962997931 0
-56C:\Projecten\test\drivingquiz\dist\index.6f22736e.js.map133752914199501013 0
 57C:\Projecten\test\drivingquiz\node_modules\async\every.js133752826963037837 0
 58C:\Projecten\test\drivingquiz\node_modules\async\filter.js133752826963067844 0
 64C:\Projecten\test\drivingquiz\node_modules\async\filterSeries.js133752826963087838 0
@@ -6415,7 +6413,7 @@
 91C:\Projecten\test\drivingquiz\node_modules\@swc\helpers\_\_object_spread_props\package.json133752818018027537 0
 85C:\Projecten\test\drivingquiz\node_modules\@swc\helpers\_\_object_spread\package.json133752818017987507 0
 91C:\Projecten\test\drivingquiz\node_modules\@swc\helpers\_\_non_iterable_spread\package.json133752818017882276 0
-55C:\Projecten\test\drivingquiz\dist\js-logo.195acf99.png133752914186812098 0
+55C:\Projecten\test\drivingquiz\dist\js-logo.195acf99.png133752972328508834 0
 89C:\Projecten\test\drivingquiz\node_modules\@swc\helpers\_\_non_iterable_rest\package.json133752818017822272 0
 87C:\Projecten\test\drivingquiz\node_modules\@swc\helpers\_\_new_arrow_check\package.json133752818017781538 0
 75C:\Projecten\test\drivingquiz\node_modules\@swc\helpers\_\_jsx\package.json133752818017741560 0
@@ -6477,7 +6475,7 @@
 90C:\Projecten\test\drivingquiz\node_modules\@swc\helpers\src\_class_private_method_init.mjs133752818022765349 0
 89C:\Projecten\test\drivingquiz\node_modules\@swc\helpers\src\_class_private_method_set.mjs133752818022765349 0
 103C:\Projecten\test\drivingquiz\node_modules\@swc\helpers\src\_class_static_private_field_destructure.mjs133752818022790529 0
-52C:\Projecten\test\drivingquiz\dist\phys.8856c28f.gif133752914186792126 0
+52C:\Projecten\test\drivingquiz\dist\phys.8856c28f.gif133752972330544283 0
 100C:\Projecten\test\drivingquiz\node_modules\@swc\helpers\src\_class_static_private_field_spec_get.mjs133752818022800532 0
 96C:\Projecten\test\drivingquiz\node_modules\@swc\helpers\src\_class_static_private_method_get.mjs133752818022830698 0
 80C:\Projecten\test\drivingquiz\node_modules\@swc\helpers\src\_define_property.mjs133752818022946329 0
@@ -6669,7 +6667,7 @@
 63C:\Projecten\test\drivingquiz\node_modules\@swc\core\index.d.ts133752818009661514 0
 61C:\Projecten\test\drivingquiz\node_modules\@swc\core\index.js133752818010056759 0
 67C:\Projecten\test\drivingquiz\node_modules\@swc\core\postinstall.js133752818010520454 0
-53C:\Projecten\test\drivingquiz\dist\email.3758588d.png133752914183157997 0
+53C:\Projecten\test\drivingquiz\dist\email.3758588d.png133752972330328820 0
 63C:\Projecten\test\drivingquiz\node_modules\@swc\core\spack.d.ts133752818010690256 0
 62C:\Projecten\test\drivingquiz\node_modules\@swc\core\util.d.ts133752818010999321 0
 87C:\Projecten\test\drivingquiz\node_modules\@parcel\runtime-js\src\helpers\bundle-url.js133752818009903971 0
@@ -6756,7 +6754,7 @@
 74C:\Projecten\test\drivingquiz\node_modules\@parcel\watcher\src\Debounce.hh133752818013356792 0
 73C:\Projecten\test\drivingquiz\node_modules\@parcel\watcher\src\DirTree.hh133752818013446802 0
 71C:\Projecten\test\drivingquiz\node_modules\@parcel\watcher\src\Event.hh133752818013536861 0
-57C:\Projecten\test\drivingquiz\dist\cplusplus.cb49e4b3.svg133752914188476337 0
+57C:\Projecten\test\drivingquiz\dist\cplusplus.cb49e4b3.svg133752972328498902 0
 70C:\Projecten\test\drivingquiz\node_modules\@parcel\watcher\src\Glob.hh133752818013703380 0
 114C:\Projecten\test\drivingquiz\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\atrule\index.js133752818016363853 0
 69C:\Projecten\test\drivingquiz\node_modules\@parcel\watcher\src\shared133752818013136889 1
@@ -6918,14 +6916,14 @@
 93C:\Projecten\test\drivingquiz\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-node133752818017351308 1
 106C:\Projecten\test\drivingquiz\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-node\package.json133752818012771176 0
 118C:\Projecten\test\drivingquiz\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-node\parcel_sourcemap_wasm.js133752818011009227 0
-57C:\Projecten\test\drivingquiz\dist\bash-logo.e0b17e6e.png133752914183157997 0
+57C:\Projecten\test\drivingquiz\dist\bash-logo.e0b17e6e.png133752972330288731 0
 123C:\Projecten\test\drivingquiz\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-node\parcel_sourcemap_wasm_bg.wasm133752818017421264 0
 92C:\Projecten\test\drivingquiz\node_modules\@parcel\source-map\parcel_sourcemap_node\build.js133752818010360609 0
 77C:\Projecten\test\drivingquiz\node_modules\@parcel\core\src\resolveOptions.js133752818018742879 0
 94C:\Projecten\test\drivingquiz\node_modules\@parcel\source-map\parcel_sourcemap_node\Cargo.toml133752818017291266 0
 92C:\Projecten\test\drivingquiz\node_modules\@parcel\source-map\parcel_sourcemap_node\index.js133752818010530455 0
 87C:\Projecten\test\drivingquiz\node_modules\@parcel\source-map\parcel_sourcemap_node\src133752818017216085 1
-57C:\Projecten\test\drivingquiz\dist\index.e66ff1f5.css.map133752914199490857 0
+57C:\Projecten\test\drivingquiz\dist\index.e66ff1f5.css.map133752972338804163 0
 115C:\Projecten\test\drivingquiz\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.darwin-x64.node133752818014685013 0
 67C:\Projecten\test\drivingquiz\node_modules\@parcel\packager-svg\lib133752818007555522 1
 124C:\Projecten\test\drivingquiz\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.linux-arm-gnueabihf.node133752818015351483 0
@@ -6970,7 +6968,7 @@
 83C:\Projecten\test\drivingquiz\node_modules\@parcel\graph\test\AdjacencyList.test.js133752818010250283 0
 80C:\Projecten\test\drivingquiz\node_modules\@parcel\runtime-js\src\helpers\worker133752818014695003 1
 91C:\Projecten\test\drivingquiz\node_modules\@parcel\runtime-js\src\helpers\node\js-loader.js133752818013623263 0
-53C:\Projecten\test\drivingquiz\dist\arrow.2959942e.png133752914183074340 0
+53C:\Projecten\test\drivingquiz\dist\arrow.2959942e.png133752972328498902 0
 105C:\Projecten\test\drivingquiz\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\replace\Number.js133752818014383955 0
 93C:\Projecten\test\drivingquiz\node_modules\@parcel\runtime-js\src\helpers\node\wasm-loader.js133752818014635034 0
 98C:\Projecten\test\drivingquiz\node_modules\@parcel\runtime-js\src\helpers\browser\esm-js-loader.js133752818012060511 0
@@ -7005,7 +7003,7 @@
 79C:\Projecten\test\drivingquiz\node_modules\@parcel\reporter-tracer\package.json133752818008866831 0
 70C:\Projecten\test\drivingquiz\node_modules\@parcel\reporter-tracer\src133752818008237305 1
 88C:\Projecten\test\drivingquiz\node_modules\@parcel\reporter-tracer\src\TracerReporter.js133752818008371281 0
-49C:\Projecten\test\drivingquiz\dist\assets\symbols133752914203175354 1
+49C:\Projecten\test\drivingquiz\dist\assets\symbols133752972340363986 1
 106C:\Projecten\test\drivingquiz\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\index.js133752818010320595 0
 88C:\Projecten\test\drivingquiz\node_modules\@parcel\reporter-tracer\lib\TracerReporter.js133752818007625712 0
 57C:\Projecten\test\drivingquiz\node_modules\@parcel\fs\lib133752818012651170 1
@@ -7434,7 +7432,7 @@
 129C:\Projecten\test\drivingquiz\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\pseudo-selectors\index.d.ts.map133752818012711176 0
 60C:\Projecten\test\drivingquiz\dist\assets\symbols\python.svg133752001237192482 0
 94C:\Projecten\test\drivingquiz\node_modules\@parcel\optimizer-htmlnano\lib\HTMLNanoOptimizer.js133752818007724112 0
-52C:\Projecten\test\drivingquiz\dist\index.f06c65bd.js133752914199214816 0
+52C:\Projecten\test\drivingquiz\dist\index.f06c65bd.js133752972338701272 0
 68C:\Projecten\test\drivingquiz\node_modules\@parcel\optimizer-css\lib133752818007555522 1
 77C:\Projecten\test\drivingquiz\node_modules\@parcel\optimizer-css\package.json133752818009122464 0
 68C:\Projecten\test\drivingquiz\node_modules\@parcel\optimizer-css\src133752818008323899 1
@@ -7563,7 +7561,7 @@
 77C:\Projecten\test\drivingquiz\node_modules\@parcel\core\src\InternalConfig.js133752818017266059 0
 73C:\Projecten\test\drivingquiz\node_modules\@parcel\core\src\loadDotEnv.js133752818017351308 0
 69C:\Projecten\test\drivingquiz\node_modules\@parcel\core\src\Parcel.js133752818017902274 0
-60C:\Projecten\test\drivingquiz\dist\visualstudio.f54aba4e.svg133752914199214816 0
+60C:\Projecten\test\drivingquiz\dist\visualstudio.f54aba4e.svg133752972328508834 0
 75C:\Projecten\test\drivingquiz\node_modules\@parcel\core\src\ParcelConfig.js133752818018037517 0
 74C:\Projecten\test\drivingquiz\node_modules\@parcel\core\src\projectPath.js133752818018364730 0
 66C:\Projecten\test\drivingquiz\node_modules\@parcel\core\src\public133752818019078651 1
@@ -7705,25 +7703,25 @@
 52C:\Projecten\test\drivingquiz\node_modules\.bin\svgo133752818031885619 0
 70C:\Projecten\test\drivingquiz\node_modules\.bin\update-browserslist-db133752818031895620 0
 74C:\Projecten\test\drivingquiz\node_modules\.bin\update-browserslist-db.cmd133752818031885619 0
-57C:\Projecten\test\drivingquiz\dist\about-pic.1cde0f28.png133752914186812098 0
-41C:\Projecten\test\drivingquiz\dist\assets133752914203202465 1
-57C:\Projecten\test\drivingquiz\dist\CSS3_logo.28cf0073.png133752914183157997 0
-57C:\Projecten\test\drivingquiz\dist\education.4a375c8d.png133752914196892377 0
-59C:\Projecten\test\drivingquiz\dist\excel-logo2.66a94042.png133752914189731775 0
-58C:\Projecten\test\drivingquiz\dist\experience.0eff8365.png133752914189701836 0
-58C:\Projecten\test\drivingquiz\dist\HTML5_logo.80bb05e9.png133752914196882455 0
-53C:\Projecten\test\drivingquiz\dist\index.645dd7ba.css133752914199304408 0
-53C:\Projecten\test\drivingquiz\dist\index.e66ff1f5.css133752914199344172 0
-56C:\Projecten\test\drivingquiz\dist\index.f06c65bd.js.map133752914199364211 0
-45C:\Projecten\test\drivingquiz\dist\index.html133752914199214816 0
-56C:\Projecten\test\drivingquiz\dist\linkedin.de55a352.png133752914196902342 0
-59C:\Projecten\test\drivingquiz\dist\profile_pic.ccb5d837.jpg133752914189741785 0
-57C:\Projecten\test\drivingquiz\dist\project-2.3ff3228a.gif133752914201428964 0
-55C:\Projecten\test\drivingquiz\dist\threejs.1f93e9ce.png133752914196902342 0
+57C:\Projecten\test\drivingquiz\dist\about-pic.1cde0f28.png133752972328498902 0
+41C:\Projecten\test\drivingquiz\dist\assets133752972340413988 1
+57C:\Projecten\test\drivingquiz\dist\CSS3_logo.28cf0073.png133752972328508834 0
+57C:\Projecten\test\drivingquiz\dist\education.4a375c8d.png133752972328498902 0
+59C:\Projecten\test\drivingquiz\dist\excel-logo2.66a94042.png133752972328508834 0
+58C:\Projecten\test\drivingquiz\dist\experience.0eff8365.png133752972328498902 0
+58C:\Projecten\test\drivingquiz\dist\HTML5_logo.80bb05e9.png133752972328508834 0
+53C:\Projecten\test\drivingquiz\dist\index.645dd7ba.css133752972338681384 0
+53C:\Projecten\test\drivingquiz\dist\index.e66ff1f5.css133752972338691288 0
+56C:\Projecten\test\drivingquiz\dist\index.f06c65bd.js.map133752972338804163 0
+45C:\Projecten\test\drivingquiz\dist\index.html133752972338681384 0
+56C:\Projecten\test\drivingquiz\dist\linkedin.de55a352.png133752972328498902 0
+59C:\Projecten\test\drivingquiz\dist\profile_pic.ccb5d837.jpg133752972328264762 0
+57C:\Projecten\test\drivingquiz\dist\project-2.3ff3228a.gif133752972333761875 0
+55C:\Projecten\test\drivingquiz\dist\threejs.1f93e9ce.png133752972330288731 0
 51C:\Projecten\test\drivingquiz\dist\assets\arrow.glb133752817557262892 0
 49C:\Projecten\test\drivingquiz\dist\assets\red.glb133752817557291745 0
 64C:\Projecten\test\drivingquiz\dist\assets\symbols\LaTeX_logo.png133752001234364163 0
-48C:\Projecten\test\drivingquiz\dist\assets\sounds133752914202361591 1
+48C:\Projecten\test\drivingquiz\dist\assets\sounds133752972339657494 1
 53C:\Projecten\test\drivingquiz\dist\assets\terrain.glb133752817557683891 0
 63C:\Projecten\test\drivingquiz\dist\assets\symbols\about-pic.jpg133752001234373993 0
 63C:\Projecten\test\drivingquiz\dist\assets\symbols\about-pic.png133752001234384008 0
