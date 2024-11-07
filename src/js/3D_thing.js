@@ -18,16 +18,16 @@ const renderer = new THREE.WebGLRenderer({
   canvas: main_canvas,
 });
 
-const geometry = new THREE.BoxGeometry(1, 1, 1);
-// const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
-const material = new THREE.MeshStandardMaterial({ color: "red", emissive: 'red', emissiveIntensity: 0});
-const cube = new THREE.Mesh(geometry, material);
+// const geometry = new THREE.BoxGeometry(1, 1, 1);
+// // const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+// const material = new THREE.MeshStandardMaterial({ color: "red", emissive: 'red', emissiveIntensity: 0});
+// const cube = new THREE.Mesh(geometry, material);
 // scene.add(cube);
 
 // camera.position.set(0,1.64,0.3); // adventurer
 camera.position.set(0,2.1,1);
 // camera.position.z = 5;
-var light = new THREE.DirectionalLight( 'white', 0.7 );
+var light = new THREE.DirectionalLight( 'white', 2.5 );
 light.castShadow = true;
 light.position.set( 1, 0.5, 2 );
 scene.add( light );
@@ -63,22 +63,63 @@ loader.load('./assets/dimoni_animated.glb', function(glb) {
 
 function animate() {
   requestAnimationFrame(animate);
-  cube.rotation.y += 0.001;
-  cube.rotation.x += 0.002;
+  // cube.rotation.y += 0.001;
+  // cube.rotation.x += 0.002;
   renderer.render(scene, camera);
 }
 
 animate();
-window.addEventListener('mousemove', onMouseMove);
 
-  
+let mobile = false;
+
+if(window.matchMedia("(any-hover: none)").matches) {
+  // do something
+  mobile = true;
+  console.log('triggeredddd');
+}
+
+let lastKnownScrollPosition = 0;
+let ticking = false;
+
 function onMouseMove(event) {
   // console.log(event.clientX, event.clientY);
   // console.log(light.position);
-
+  // mobile = false;
   light.position.set(
       (event.clientX / window.innerWidth) * 5 - 2,
       -(event.clientY / window.innerHeight) * 5 + 2,
       2
   );
 }
+
+
+
+
+if (!mobile){
+  window.addEventListener('mousemove', onMouseMove);
+}
+ else {
+  document.addEventListener("scroll", (event) => {
+    lastKnownScrollPosition = window.scrollY;
+  
+    if (!ticking) {
+      window.requestAnimationFrame(() => {
+        doSomething(lastKnownScrollPosition);
+        ticking = false;
+      });
+  
+      ticking = true;
+    }
+  });
+ }
+
+
+function doSomething(scrollPos) {
+  // Do something with the scroll position
+  light.position.set(
+    (Math.sin(scrollPos/100) * 1000 / window.innerWidth),
+    -(Math.cos(scrollPos/100) * 1000 / window.innerWidth),
+    2
+  );
+}
+

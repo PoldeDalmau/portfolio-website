@@ -328,11 +328,27 @@ section {
   position: relative;
 }
 
-.about-containers {
+/* .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+} */
+
+.about-containers {
+  display: grid;
+  /* Allow up to 2 columns, each taking minimum 300px or maximum 1fr */
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
 }
+
+/* Ensure single column on smaller screens */
+@media (max-width: 600px) {
+  .about-containers {
+    grid-template-columns: 1fr; /* Single column on small screens */
+  }
+}
+
 
 .about-details-container {
   justify-content: center;
@@ -341,10 +357,10 @@ section {
 
 }
 
-.about-containers,
+/* .about-containers,
 .about-details-container {
   display: flex;
-}
+} */
 
 .profile-pic {
   border-radius: 50%;
