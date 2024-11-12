@@ -53,6 +53,7 @@ scene.background = new THREE.Color(0x72809e); // dark
 // });
 
 let mixer;
+let head;
 const model = new Promise((res, rej) => {
   const loader = new FBXLoader();
   loader.load('./assets/low_poly_man.fbx', (fbx) => {
@@ -60,41 +61,75 @@ const model = new Promise((res, rej) => {
     fbx.traverse(c => {
       c.castShadow = true;
     });
+    head = fbx.getObjectByName('mixamorigHead');
     res(fbx);
   });
 })
 
-const animation = new Promise((res, rej) => {
+
+const animation1 = new Promise((res, rej) => {
   const loader = new FBXLoader();
   loader.load('./assets/Waving.fbx', (fbx) => {
     res(fbx);
   });
-    
 })
-const combo = Promise.all([model, animation]);
+const animation2 = new Promise((res, rej) => {
+  const loader = new FBXLoader();
+  loader.load('./assets/Arm Stretching.fbx', (fbx) => {
+    res(fbx);
+  });
+})
+
+const combo = Promise.all([model, animation1, animation2]);
 
 
 combo.then(object=>{
   scene.add(object[0]);
   mixer = new THREE.AnimationMixer( object[0] );
   object[0].animations = object[1].animation;
-  const action = mixer.clipAction(object[1].animations[0]);
-  action.play();
+  const action1 = mixer.clipAction(object[1].animations[0]);
+  action1._clip.name = 'waving';
+  const action2 = mixer.clipAction(object[2].animations[0]);
+  action2._clip.name = 'armstretching';
+  action1.play();
+  // action1.loop = THREE.LoopOnce;
+  action2.loop = THREE.LoopOnce;
+  let wave_counter = 0;
+  mixer.addEventListener('finished', function(e) {
+    if(e.action._clip.name == 'waving' && wave_counter < 5){
+      wave_counter++;
+      action1.reset();
+      action1.play();
+      if (wave_counter == 4){
+        wave_counter = 0;
+        action1.stop();
+        action2.play();
+      }  
+    } else if(e.action._clip.name == 'armstretching'){
+      action2.stop();
+      action1.play();
+    }
+  });
+
 })
 
-//   const anim = new FBXLoader();
-//   anim.load('Offensive Idle.fbx', (anim) => {
-//     const m = new THREE.AnimationMixer(fbx);
-//     // mixers.push(m);
-//     const idle = m.clipAction(anim.animations[0]);
-//     idle.play();
-//   });
-//   scene.add(fbx);
+const target = new THREE.Object3D();
+const mousePosition = new THREE.Vector2();
+target.position.set(0.2, 5.2, 2); // good initial target position
+
+window.addEventListener('mousemove', (e) => {
+  mousePosition.x = 2 * ((e.clientX/window.innerWidth) * 2 - 1) ;
+  mousePosition.y = -2 * (e.clientY/window.innerHeight) * 2 + 7 ;
+  target.position.set(mousePosition.x, mousePosition.y, 2);
+});
 
 function animate() {
   const delta = clock.getDelta();
 
   if (mixer) mixer.update(delta);
+  if (head) {
+    head.lookAt(target.position);
+  }
 
   requestAnimationFrame(animate);
   // cube.rotation.y += 0.001;
