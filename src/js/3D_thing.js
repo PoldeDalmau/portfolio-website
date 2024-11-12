@@ -10,12 +10,13 @@ let cheight = 640 / n;
 main_canvas.setAttribute("width", cwidth + "px");
 main_canvas.setAttribute("height", cheight + "px");
 
-const scene = new THREE.Scene({alpha: true});
+const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, main_canvas.clientWidth / main_canvas.clientHeight, 0.1, 1000);
 
 const renderer = new THREE.WebGLRenderer({
   antialias: true,
   canvas: main_canvas,
+  alpha: true
 });
 
 // const geometry = new THREE.BoxGeometry(1, 1, 1);
@@ -75,7 +76,6 @@ let mobile = false;
 if(window.matchMedia("(any-hover: none)").matches) {
   // do something
   mobile = true;
-  console.log('triggeredddd');
 }
 
 let lastKnownScrollPosition = 0;

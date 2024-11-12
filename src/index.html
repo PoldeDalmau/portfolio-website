@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pol de Dalmau Huguet</title>
+    <title>Pol de Dalmau</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/mediaqueries.css">
 </head>
@@ -38,7 +38,10 @@
       </nav>
       <section id="profile">
         <div class="section__pic-container">
-          <img src="../static/symbols/profile_pic.jpg" class="profile-pic" alt="John Doe profile picture" />
+          <!-- <img src="../static/symbols/profile_pic.jpg" class="profile-pic" alt="John Doe profile picture" /> -->
+          <div id="canvas-wrapper2">
+            <canvas id="second-canvas"></canvas>
+          </div>
         </div>
         <div class="section__text">
           <p class="section__text__p1">Hello, I'm</p>
@@ -76,11 +79,15 @@
         <h1 class="title">About Me</h1>
         <div class="section-container">
           <div class="section__pic-container">
-            <img
+            <!-- <img
               src="../static/symbols/about-pic.png"
               alt="Profile picture"
               class="about-pic"
-            />
+            /> -->
+            <div id="canvas-wrapper2">
+              <canvas id="third-canvas"></canvas>
+            </div>
+          </div>
           </div>
           <div class="about-details-container">
             <div class="about-containers">
@@ -324,7 +331,7 @@
             <div class="details-container color-container">
               <div class="article-container">
                 <img
-                  src="../static/symbols/project-2.gif"
+                  src="../static/symbols/project-2-v2.gif"
                   alt="Project 2"
                   class="project-img"
                 />
@@ -360,7 +367,7 @@
               <div class="btn-container">
                 <button
                   class="btn btn-color-2"
-                  onclick="location.href='https://github.com/PoldeDalmau/Personal-website'"
+                  onclick="location.href='https://github.com/PoldeDalmau/portfolio-website'"
                 >
                   Github
                 </button>
@@ -386,7 +393,7 @@
               <div class="btn-container">
                 <button
                   class="btn btn-color-2"
-                  onclick="location.href='https://github.com/PoldeDalmau/Correfoc'"
+                  onclick="location.href='https://github.com/PoldeDalmau/Correfoc/tree/main/resources/demon'"
                 >
                   Github
                 </button>
@@ -445,6 +452,8 @@
     <!-- <script src="./js/scripts.js" type="module"></script> -->
     <!-- <script src="./js/script.js"></script> -->
     <script src="./js/3D_thing.js" type="module"></script>
+    <script src="./js/3D_thing copy.js" type="module"></script>
+    <script src="./js/3D_thing copy 2.js" type="module"></script>
     <script>
       window.toggleMenu = function() {
       const menu = document.querySelector(".menu-links");

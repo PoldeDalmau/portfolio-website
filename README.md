@@ -21,3 +21,5 @@ This guide assumes that visual studio code is used as the editor, and that [node
 This project is inspired from [Ade-Mir](https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2). Go check it out or see the [youtube tutorial](https://www.youtube.com/watch?v=ldwlOzRvYOU)!
 
 Wael Yasmina provides great [tutorials](https://www.youtube.com/watch?v=gyAdWWZRNBY) and shares his [github repos](https://github.com/WaelYasmina/drivingquiz) on how to publish a website that uses threejs and GLTFLoader.
+
+The 3D model is based on "Proportional Low Poly Man | FREE Download |" [(https://sketchfab.com/3d-models/proportional-low-poly-man-free-download-0bfd0e2b49a348a4b64b20cc8196e3b3)](https://sketchfab.com/3d-models/proportional-low-poly-man-free-download-0bfd0e2b49a348a4b64b20cc8196e3b3) by Robin Butler [(https://sketchfab.com/StarTrekGuy)](https://sketchfab.com/StarTrekGuy) licensed under CC-BY-4.0 [(http://creativecommons.org/licenses/by/4.0/)](http://creativecommons.org/licenses/by/4.0/)
