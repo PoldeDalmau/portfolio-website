@@ -5,8 +5,8 @@ import {DRACOLoader} from 'three/examples/jsm/loaders/DRACOLoader';
 const main_canvas = document.getElementById("main-canvas");
 
 const n = 1;
-let cwidth = 640 / n;
-let cheight = 640 / n;
+let cwidth = 1600/2 / n;
+let cheight = 900/2 / n;
 main_canvas.setAttribute("width", cwidth + "px");
 main_canvas.setAttribute("height", cheight + "px");
 
@@ -26,9 +26,10 @@ const renderer = new THREE.WebGLRenderer({
 // scene.add(cube);
 
 // camera.position.set(0,1.64,0.3); // adventurer
-camera.position.set(0,2.1,1);
+camera.position.set(0,2.1,1.3);
 // camera.position.z = 5;
-var light = new THREE.DirectionalLight( 'white', 2.5 );
+var light = new THREE.DirectionalLight( '0xfa6b6b', 2.5 );
+// var light = new THREE.DirectionalLight( 0xfa6b6b, 2.5 );
 light.castShadow = true;
 light.position.set( 1, 0.5, 2 );
 scene.add( light );

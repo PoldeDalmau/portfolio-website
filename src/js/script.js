@@ -1,15 +1,16 @@
-function toggleMenu() {
+window.toggleMenu = function() {
   const menu = document.querySelector(".menu-links");
   const icon = document.querySelector(".hamburger-icon");
   menu.classList.toggle("open");
   icon.classList.toggle("open");
+
   // Only add the event listener if the menu is opening
   if (menu.classList.contains("open")) {
     document.addEventListener("click", closeMenuOnClickOutside);
   } else {
     document.removeEventListener("click", closeMenuOnClickOutside);
   }
-}
+};
 
 // Close the menu if a click occurs outside of it
 function closeMenuOnClickOutside(event) {

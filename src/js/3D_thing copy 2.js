@@ -66,7 +66,7 @@ const model = new Promise((res, rej) => {
 
 const animation = new Promise((res, rej) => {
   const loader = new FBXLoader();
-  loader.load('./assets/Offensive Idle.fbx', (fbx) => {
+  loader.load('./assets/Arm Gesture.fbx', (fbx) => {
     res(fbx);
   });
     
