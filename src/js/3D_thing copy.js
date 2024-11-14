@@ -1,6 +1,4 @@
 import * as THREE from 'three';
-// import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader';
-// import {DRACOLoader} from 'three/examples/jsm/loaders/DRACOLoader';
 import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader.js';
 
 const clock = new THREE.Clock();
@@ -23,12 +21,6 @@ const renderer = new THREE.WebGLRenderer({
   // alpha: true
 });
 
-// const geometry = new THREE.BoxGeometry(1, 1, 1);
-// // const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
-// const material = new THREE.MeshStandardMaterial({ color: "red", emissive: 'red', emissiveIntensity: 0});
-// const cube = new THREE.Mesh(geometry, material);
-// scene.add(cube);
-
 camera.position.set(0,5.5,2.5);
 camera.rotateY(0.2);
 var light = new THREE.DirectionalLight( 'white', 0.5 );
@@ -39,18 +31,6 @@ var ambient = new THREE.AmbientLight('white', 0.5);
 scene.add(ambient);
 
 scene.background = new THREE.Color(0x72809e); // dark
-// scene.background = new THREE.Color(0xF5F5DC); // beige
-
-// const loader = new GLTFLoader();
-// const dLoader = new DRACOLoader();
-// dLoader.setDecoderPath('https://www.gstatic.com/draco/versioned/decoders/1.5.6/');
-// dLoader.setDecoderConfig({type: 'js'});
-// loader.setDRACOLoader(dLoader);
-
-// loader.load('./assets/low_poly_man.glb', function(glb) {
-//     const model = glb.scene;
-//     scene.add(model);
-// });
 
 let mixer;
 let head;
@@ -117,11 +97,6 @@ const target = new THREE.Object3D();
 const mousePosition = new THREE.Vector2();
 target.position.set(0.2, 5.2, 2); // good initial target position
 
-window.addEventListener('mousemove', (e) => {
-  mousePosition.x = 2 * ((e.clientX/window.innerWidth) * 2 - 1) ;
-  mousePosition.y = -2 * (e.clientY/window.innerHeight) * 2 + 7 ;
-  target.position.set(mousePosition.x, mousePosition.y, 2);
-});
 
 function animate() {
   const delta = clock.getDelta();
@@ -132,10 +107,47 @@ function animate() {
   }
 
   requestAnimationFrame(animate);
-  // cube.rotation.y += 0.001;
-  // cube.rotation.x += 0.002;
   renderer.render(scene, camera);
-  // camera.rotateX(0.1);
 }
 
 animate();
+
+let mobile = false;
+
+if(window.matchMedia("(any-hover: none)").matches) {
+  mobile = true;
+}
+
+let lastKnownScrollPosition = 0;
+let ticking = false;
+
+if (!mobile){
+
+  window.addEventListener('mousemove', (e) => {
+    mousePosition.x = 2 * ((e.clientX/window.innerWidth) * 2 - 1) ;
+    mousePosition.y = -2 * (e.clientY/window.innerHeight) * 2 + 7 ;
+    target.position.set(mousePosition.x, mousePosition.y, 2);
+  });
+}
+ else {
+  document.addEventListener("scroll", (event) => {
+    lastKnownScrollPosition = window.scrollY;
+  
+    if (!ticking) {
+      window.requestAnimationFrame(() => {
+        doSomething(lastKnownScrollPosition);
+        ticking = false;
+      });
+  
+      ticking = true;
+    }
+  });
+ }
+
+
+function doSomething(scrollPos) {
+  // Do something with the scroll position
+  target.position.set(0.2,
+     5.2 * (1 - (scrollPos/1000)),
+     2);
+}
